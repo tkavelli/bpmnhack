@@ -1,0 +1,6 @@
+{
+    "current": "models/DeepSeek-R1-Distill-Qwen-14B-Q4_K_L.gguf",
+    "qwen": "models/Qwen1.5-14B-Chat-GGUF/qwen1_5-14b-chat-q4_k_m.gguf",
+    "mistral": "models/Mistral-7B-Instruct-v0.2.Q4_K_M.gguf",
+    "neural": "models/neural-chat-7b-v3-1.Q4_K_M.gguf"
+}

@@ -1,0 +1,1 @@
+StartEvent, EndEvent, IntermediateCatchEvent, IntermediateThrowEvent, BoundaryEvent, UserTask, ServiceTask, SendTask, ReceiveTask, ManualTask, BusinessRuleTask, ScriptTask, ExclusiveGateway, ParallelGateway, InclusiveGateway, EventBasedGateway, SubProcess, CallActivity, TextAnnotation

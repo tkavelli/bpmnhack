@@ -1,0 +1,5 @@
+fastapi
+uvicorn[standard]
+llama-cpp-python[server]
+jinja2
+python-dotenv
