@@ -1,0 +1,13 @@
+services:        # Список сервисов (контейнеров)
+  backend:       # Имя сервиса (можно задать любое)
+    build: ./backend  # Собирать образ из Dockerfile в папке backend
+    volumes:
+      - ./backend:/app  # Синхронизация папки проекта с контейнером
+    ports:
+      - "8000:8000"     # Проброс портов: ХОСТ:КОНТЕЙНЕР
+
+  frontend:
+    build: ./frontend  # Собирать образ из Dockerfile в папке frontend
+    ports:
+      - "5173:5173"    # Порт разработки Vite
+    command: npm run dev -- --host  # Запуск фронтенда в dev-режиме
